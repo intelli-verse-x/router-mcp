@@ -1,0 +1,38 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+  "name": "io.github.intelli-verse-x/router-mcp",
+  "description": "Run the Intelliverse platform from any agent: create App IDs, mint tier API keys, ingest/search per-app knowledge bases, send email, generate media, check credits, chat — 15 tools, no model names ever.",
+  "repository": {
+    "url": "https://github.com/intelli-verse-x/router-mcp",
+    "source": "github"
+  },
+  "version": "0.2.0",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "@intelliverse/router-mcp",
+      "version": "0.2.0",
+      "transport": { "type": "stdio" },
+      "environmentVariables": [
+        {
+          "name": "ROUTER_API_KEY",
+          "description": "Tier API key (chat, KB, media, email, credits)",
+          "isRequired": true,
+          "isSecret": true
+        },
+        {
+          "name": "ROUTER_MANAGEMENT_KEY",
+          "description": "Management key (apps + key administration)",
+          "isRequired": false,
+          "isSecret": true
+        },
+        {
+          "name": "ROUTER_WORKSPACE_ID",
+          "description": "Default workspace UUID for admin tools",
+          "isRequired": false,
+          "isSecret": false
+        }
+      ]
+    }
+  ]
+}

@@ -66,7 +66,7 @@ function workspace(explicit) {
         throw new Error("Provide workspace_id or set ROUTER_WORKSPACE_ID.");
     return ws;
 }
-const server = new McpServer({ name: "intelliverse-router", version: "0.1.0" });
+const server = new McpServer({ name: "intelliverse-router", version: "0.2.0" });
 // ---------------------------------------------------------------------------
 // Chat — the product itself. `model` is optional (the Intelliverse default).
 // ---------------------------------------------------------------------------
@@ -216,6 +216,23 @@ server.registerTool("kb_documents", {
     description: "List documents ingested for an App ID.",
     inputSchema: { app_id: z.string().uuid() }
 }, async ({ app_id }) => ok(await call(KB, "/v1/kb/documents", { bearer: API_KEY, query: { app_id } })));
+// ---------------------------------------------------------------------------
+// Comms — per-App-ID email through the platform email engine (Pro+).
+// ---------------------------------------------------------------------------
+server.registerTool("send_email", {
+    title: "Send email from an App ID",
+    description: "Send transactional/newsletter email through the platform email engine (Pro plan+). Billed at the " +
+        "email.send10 SKU from the App ID's iv_credits wallet (hold → dispatch → settle); failed sends are " +
+        "never charged and partial batches settle on accepted recipients only.",
+    inputSchema: {
+        app_id: z.string().uuid(),
+        to: z.array(z.string().email()).min(1).describe("Recipient email addresses"),
+        subject: z.string().min(1).max(200),
+        body_text: z.string().optional(),
+        body_html: z.string().optional(),
+        reply_to: z.string().email().optional()
+    }
+}, async (input) => ok(await call(EDGE, "/v1/comms/email", { bearer: API_KEY, body: input })));
 // ---------------------------------------------------------------------------
 // Media — credit-metered generation, charged to the App ID's wallet.
 // ---------------------------------------------------------------------------
