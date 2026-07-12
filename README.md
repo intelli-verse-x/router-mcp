@@ -166,6 +166,6 @@ cp -r router-mcp/skills/* ~/.cursor/skills/   # or ~/.claude/skills/
 npm install && npm run build && node dist/index.js
 ```
 
-`server.json` at the repo root is the ready-to-publish payload for the official
-MCP Registry (blocked on the npm publish of `@intelliverse/router-mcp` — see
-the docs in the main platform repo).
+`server.json` at the repo root is the payload published to the official
+[MCP Registry](https://registry.modelcontextprotocol.io) as
+`io.github.intelli-verse-x/router-mcp` (MCPB bundle from the GitHub release).
