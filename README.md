@@ -1,7 +1,7 @@
 # Intelliverse Router MCP server + Agent Skills
 
 Run the whole [Intelliverse platform](https://router.intelli-verse-x.ai) from any
-MCP-capable agent: create App IDs, mint tier API keys, ingest and search per-app
+MCP-capable agent: create experiences, mint tier API keys, ingest and search experience-scoped
 knowledge bases, send email, generate media, check credits, and chat — without
 ever naming an LLM.
 
@@ -18,11 +18,11 @@ Full setup guide with copy-paste configs: <https://router.intelli-verse-x.ai/ski
 |---|---|---|
 | `chat` | API key | Chat completion; `model` optional (Intelliverse default routes at your plan tier) |
 | `list_models` | API key | Tier aliases your key can call |
-| `get_credits` | API key | LLM daily budget + per-App-ID media credit wallets |
-| `create_app` / `list_apps` | management | App IDs — entry point for KB, wallets, per-app costs |
+| `get_credits` | API key | LLM daily budget + experience-scoped media credit wallets |
+| `create_app` / `list_apps` | management | Experiences — isolated Knowledge, Memory, wallets, and usage |
 | `create_api_key` / `list_api_keys` / `revoke_api_key` | management | Tier-gated key administration |
-| `kb_ingest` / `kb_search` / `kb_chat` / `kb_documents` | API key | App-scoped pgvector knowledge base |
-| `send_email` | API key | Per-App-ID email via the platform engine (Pro+, `email.send10` SKU, hold → settle) |
+| `kb_ingest` / `kb_search` / `kb_chat` / `kb_documents` | API key | Experience-scoped pgvector Knowledge base |
+| `send_email` | API key | Experience-scoped email via the platform engine (Pro+, `email.send10` SKU, hold → settle) |
 | `generate_media` / `media_job_status` | API key | Credit-metered image/video/voice/audio/3D jobs |
 
 Env vars: `ROUTER_API_KEY` (Workspace → API Keys), `ROUTER_MANAGEMENT_KEY`
@@ -142,7 +142,7 @@ into your agent's skills folder (`~/.cursor/skills/` for Cursor,
 | Skill | What it does |
 |---|---|
 | `intelliverse-router` | Platform wiring — the 60-second create_app → key → KB loop |
-| `nl-app-builder` | Scaffold web/mobile apps wired to an App ID |
+| `nl-app-builder` | Scaffold web/mobile apps wired to an experience |
 | `scaffold-game` | Honest-scope Nakama game-backend stubs |
 | `deploy-desktop` | Electron/Tauri desktop apps delegating to IVX Agency |
 | `conversational-avatar` | Real-time voice + lip-sync avatars over LiveKit |
@@ -154,7 +154,7 @@ cp -r router-mcp/skills/* ~/.cursor/skills/   # or ~/.claude/skills/
 
 ## The 60-second loop
 
-1. `create_app` — describe your app; get an App ID and recommended tier.
+1. `create_app` — describe your experience; get an Experience ID and recommended tier.
 2. `create_api_key` — mint a key bound to that app.
 3. `kb_ingest` — feed it docs or URLs.
 4. `chat` / `kb_chat` — start building. No model names, ever.

@@ -1,6 +1,6 @@
 # Intelliverse NL App Builder
 
-Build web and mobile apps from natural language, wired to Intelliverse App IDs.
+Build web and mobile apps from natural language, wired to Intelliverse experiences.
 
 ## When to use
 
@@ -12,7 +12,7 @@ Build web and mobile apps from natural language, wired to Intelliverse App IDs.
 
 | Tool | Purpose |
 |------|---------|
-| `create_app` | Mint App ID with use_cases and tier recommendation |
+| `create_app` | Create experience with use_cases and tier recommendation |
 | `create_api_key` | Mint tier key bound to app_id |
 | `kb_ingest` | Ingest docs/URLs into app-scoped memory |
 | `kb_chat` | RAG chat with citations |
@@ -22,7 +22,7 @@ Build web and mobile apps from natural language, wired to Intelliverse App IDs.
 ## Workflow
 
 1. **Clarify scope** — web (Next.js) vs mobile (Expo/React Native). Ask for app name and primary URL if known.
-2. **Create App ID** — call `create_app` with use_cases: chat, coding, rag (add image/video if needed).
+2. **Create experience** — call `create_app` with experience kind `app` and use_cases: chat, coding, rag (add image/video if needed).
 3. **Mint key** — `create_api_key` with recommended tier, bind `app_id`.
 4. **Scaffold** — generate project files. Use OpenAI SDK pattern:
 
@@ -35,7 +35,7 @@ const client = new OpenAI({
 ```
 
 5. **Ingest KB** — if user provided docs URL, call `kb_ingest` before shipping RAG features.
-6. **Receipts** — tell user their App ID, key prefix, and link to `/dashboard/apps`.
+6. **Receipts** — tell the user their Experience ID, key prefix, and link to `/dashboard/apps`.
 
 ## Honesty
 

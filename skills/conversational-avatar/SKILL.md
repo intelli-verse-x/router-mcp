@@ -1,7 +1,7 @@
 # Intelliverse Conversational Avatar
 
 Wire a real-time conversational AI avatar (voice in, voice + lip-sync out)
-into any app via natural language, on the App-ID's LiveKit conversation
+into any app via natural language, on the experience's LiveKit conversation
 surface — the same self-hosted stack that runs quizverse.world's AI tutors.
 
 ## When to use
@@ -59,7 +59,7 @@ balance across chat, media, KB, phone, and conversation.
 
 ## Honesty
 
-- Token minting, App-ID room scoping, and credit metering are live.
+- Token minting, Experience-ID room scoping, and credit metering are live.
 - The AI participant (STT → LLM → TTS + viseme stream) is generalized from the
   Quizverse production pipeline; attaching a persona-configured agent to a
   customer room is provisioned via support today — do NOT claim a self-serve

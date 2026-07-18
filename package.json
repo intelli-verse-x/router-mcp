@@ -1,7 +1,7 @@
 {
   "name": "@intelliverse/router-mcp",
   "version": "0.2.0",
-  "description": "MCP server for Intelliverse Router — create App IDs, mint API keys, ingest/search knowledge bases, generate media, and chat, all from your agent.",
+  "description": "MCP server for Intelliverse Router — create experiences, mint API keys, ingest/search Knowledge, generate media, and chat, all from your agent.",
   "type": "module",
   "bin": {
     "intelliverse-router-mcp": "dist/index.js"

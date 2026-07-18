@@ -3,7 +3,7 @@
  * Intelliverse Router MCP server (stdio).
  *
  * Lets any MCP-capable agent (Cursor, Claude, etc.) drive the platform:
- * create App IDs, mint tier API keys, ingest/search per-app knowledge bases,
+ * create experiences, mint tier API keys, ingest/search scoped Knowledge,
  * generate media, check credits, and chat — without ever naming an LLM.
  *
  * Env:
@@ -128,27 +128,28 @@ server.registerTool(
   {
     title: "Get budget and credit balances",
     description:
-      "LLM daily budget for the API key plus per-App-ID media credit wallets (image, video, voice, audio, audiobook, 3D).",
+      "LLM daily budget for the API key plus experience-scoped media credit wallets (image, video, voice, audio, audiobook, 3D).",
     inputSchema: { app_id: z.string().uuid().optional() }
   },
   async ({ app_id }) => ok(await call(EDGE, "/v1/credits", { bearer: API_KEY, query: { app_id } }))
 );
 
 // ---------------------------------------------------------------------------
-// Apps — App ID is the entry point for KB, wallets, and routing profiles.
+// Stable apps API — customer display object is Experience.
 // ---------------------------------------------------------------------------
 
 server.registerTool(
   "create_app",
   {
-    title: "Create an App ID",
+    title: "Create an experience",
     description:
-      "Create an app (the entry point for knowledge bases, credit wallets, and per-app cost tracking). " +
-      "Returns the app id and a recommended tier based on the declared workload.",
+      "Create an experience with isolated Knowledge, Memory, credentials, wallet, and usage tracking. " +
+      "Returns its Experience ID and a recommended tier based on the declared workload.",
     inputSchema: {
       name: z.string().min(1),
       url: z.string().url().optional(),
       category: z.enum(["coding", "productivity", "creative", "entertainment", "other"]).default("other"),
+      experience_kind: z.enum(["brand", "app", "game", "agent", "phygital"]).default("app"),
       use_cases: z
         .array(
           z.enum([
@@ -175,8 +176,8 @@ server.registerTool(
 server.registerTool(
   "list_apps",
   {
-    title: "List App IDs",
-    description: "List apps in the workspace with their recommended tiers and routing profiles.",
+    title: "List experiences",
+    description: "List experiences in the workspace with their recommended tiers and routing profiles.",
     inputSchema: { workspace_id: z.string().uuid().optional() }
   },
   async ({ workspace_id }) =>
@@ -197,7 +198,7 @@ server.registerTool(
   {
     title: "Create an API key",
     description:
-      "Mint a tier API key (air | pro | pro_max), optionally bound to an App ID and daily spend limit. " +
+      "Mint a tier API key (air | pro | pro_max), optionally bound to an Experience ID and daily spend limit. " +
       "The raw key is returned exactly once — store it.",
     inputSchema: {
       name: z.string().min(1),
@@ -220,7 +221,7 @@ server.registerTool(
   "list_api_keys",
   {
     title: "List API keys",
-    description: "List API keys (prefixes only) with tier, app binding, and spend limits.",
+    description: "List API keys (prefixes only) with tier, experience binding, and spend limits.",
     inputSchema: { workspace_id: z.string().uuid().optional() }
   },
   async ({ workspace_id }) =>
@@ -246,16 +247,16 @@ server.registerTool(
 );
 
 // ---------------------------------------------------------------------------
-// Knowledge base — app_id-scoped pgvector memory.
+// Knowledge base — app_id-scoped pgvector Knowledge.
 // ---------------------------------------------------------------------------
 
 server.registerTool(
   "kb_ingest",
   {
-    title: "Ingest into an app's knowledge base",
+    title: "Ingest into an experience's Knowledge base",
     description:
-      "Add documents (raw text or URLs — URLs are scraped) to the app's pgvector knowledge base. " +
-      "Chunks are embedded and become searchable memory for that App ID.",
+      "Add documents (raw text or URLs — URLs are scraped) to the experience's pgvector Knowledge base. " +
+      "Chunks are embedded and become searchable Knowledge for that experience.",
     inputSchema: {
       app_id: z.string().uuid(),
       documents: z
@@ -277,8 +278,8 @@ server.registerTool(
 server.registerTool(
   "kb_search",
   {
-    title: "Search an app's knowledge base",
-    description: "Semantic search over the app's chunks. Returns matches with similarity scores.",
+    title: "Search an experience's Knowledge base",
+    description: "Semantic search over the experience's Knowledge chunks. Returns matches with similarity scores.",
     inputSchema: {
       app_id: z.string().uuid(),
       query: z.string().min(1),
@@ -292,8 +293,8 @@ server.registerTool(
 server.registerTool(
   "kb_chat",
   {
-    title: "Chat grounded in an app's knowledge base",
-    description: "RAG chat: retrieves relevant chunks for the App ID and answers with [doc:id] citations.",
+    title: "Chat grounded in an experience's Knowledge base",
+    description: "RAG chat: retrieves relevant chunks for the experience and answers with [doc:id] citations.",
     inputSchema: {
       app_id: z.string().uuid(),
       prompt: z.string().min(1)
@@ -312,23 +313,23 @@ server.registerTool(
   "kb_documents",
   {
     title: "List knowledge base documents",
-    description: "List documents ingested for an App ID.",
+    description: "List documents ingested for an experience.",
     inputSchema: { app_id: z.string().uuid() }
   },
   async ({ app_id }) => ok(await call(KB, "/v1/kb/documents", { bearer: API_KEY, query: { app_id } }))
 );
 
 // ---------------------------------------------------------------------------
-// Comms — per-App-ID email through the platform email engine (Pro+).
+// Comms — experience-scoped email through the platform email engine (Pro+).
 // ---------------------------------------------------------------------------
 
 server.registerTool(
   "send_email",
   {
-    title: "Send email from an App ID",
+    title: "Send email from an experience",
     description:
       "Send transactional/newsletter email through the platform email engine (Pro plan+). Billed at the " +
-      "email.send10 SKU from the App ID's iv_credits wallet (hold → dispatch → settle); failed sends are " +
+      "email.send10 SKU from the experience's iv_credits wallet (hold → dispatch → settle); failed sends are " +
       "never charged and partial batches settle on accepted recipients only.",
     inputSchema: {
       app_id: z.string().uuid(),
@@ -343,7 +344,7 @@ server.registerTool(
 );
 
 // ---------------------------------------------------------------------------
-// Media — credit-metered generation, charged to the App ID's wallet.
+// Media — credit-metered generation, charged to the experience's wallet.
 // ---------------------------------------------------------------------------
 
 server.registerTool(
@@ -352,7 +353,7 @@ server.registerTool(
     title: "Generate media",
     description:
       "Generate image | video | voiceover | audio (music/sfx) | gen3d assets. Credits are held from the " +
-      "App ID's wallet and settled on completion. Returns a job — poll with media_job_status.",
+      "experience's wallet and settled on completion. Returns a job — poll with media_job_status.",
     inputSchema: {
       kind: z.enum(["image", "video", "voiceover", "audio", "gen3d"]),
       app_id: z.string().uuid(),

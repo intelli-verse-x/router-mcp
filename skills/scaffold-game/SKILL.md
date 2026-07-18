@@ -23,14 +23,14 @@ Position like Unity-style **backend** scaffolding: agents produce server modules
 
 | Tool | Purpose |
 |------|---------|
-| `create_app` | Game App ID (category: entertainment, use_cases: chat + gen3d if needed) |
+| `create_app` | Game Experience ID (category: entertainment, use_cases: chat + gen3d if needed) |
 | `create_api_key` | Server-side API access |
 | `get_credits` | Wallet balance for media/gen3d SKUs |
 
 ## Workflow
 
 1. **Clarify game type** — casual leaderboard vs realtime multiplayer vs single-player with economy.
-2. **Create App ID** — `create_app` with category `entertainment`, use_cases as needed.
+2. **Create experience** — `create_app` with experience kind `game`, category `entertainment`, and use_cases as needed.
 3. **Scaffold Nakama module** — RPCs for leaderboard submit/fetch, wallet debit hooks pointing to router wallet docs.
 4. **Document client steps** — "Unity: install Nakama SDK, call RPC X" — do not generate binary assets.
 5. **Wallet honesty** — Nakama holds/settle via `nakama/router-wallet`; link to repo README.
