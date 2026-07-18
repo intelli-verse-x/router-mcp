@@ -159,7 +159,7 @@ server.registerTool("create_api_key", {
 })));
 server.registerTool("list_api_keys", {
     title: "List API keys",
-    description: "List API keys (prefixes only) with tier, app binding, and spend limits.",
+    description: "List API keys (prefixes only) with tier, experience binding, and spend limits.",
     inputSchema: { workspace_id: z.string().uuid().optional() }
 }, async ({ workspace_id }) => ok(await call(EDGE, "/v1/admin/keys", {
     bearer: MANAGEMENT_KEY,
@@ -174,11 +174,11 @@ server.registerTool("revoke_api_key", {
     return ok({ deleted: true, id });
 });
 // ---------------------------------------------------------------------------
-// Knowledge base — app_id-scoped pgvector memory.
+// Knowledge base — app_id-scoped pgvector Knowledge.
 // ---------------------------------------------------------------------------
 server.registerTool("kb_ingest", {
     title: "Ingest into an experience's Knowledge base",
-    description: "Add documents (raw text or URLs — URLs are scraped) to the app's pgvector knowledge base. " +
+    description: "Add documents (raw text or URLs — URLs are scraped) to the experience's pgvector Knowledge base. " +
         "Chunks are embedded and become searchable Knowledge for that experience.",
     inputSchema: {
         app_id: z.string().uuid(),
@@ -194,7 +194,7 @@ server.registerTool("kb_ingest", {
 }, async ({ app_id, documents }) => ok(await call(KB, "/v1/kb/ingest", { bearer: API_KEY, body: { app_id, documents } })));
 server.registerTool("kb_search", {
     title: "Search an experience's Knowledge base",
-    description: "Semantic search over the app's chunks. Returns matches with similarity scores.",
+    description: "Semantic search over the experience's Knowledge chunks. Returns matches with similarity scores.",
     inputSchema: {
         app_id: z.string().uuid(),
         query: z.string().min(1),
