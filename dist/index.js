@@ -177,7 +177,7 @@ server.registerTool("revoke_api_key", {
 // Knowledge base — app_id-scoped pgvector memory.
 // ---------------------------------------------------------------------------
 server.registerTool("kb_ingest", {
-    title: "Ingest into an app's knowledge base",
+    title: "Ingest into an experience's Knowledge base",
     description: "Add documents (raw text or URLs — URLs are scraped) to the app's pgvector knowledge base. " +
         "Chunks are embedded and become searchable Knowledge for that experience.",
     inputSchema: {
@@ -193,7 +193,7 @@ server.registerTool("kb_ingest", {
     }
 }, async ({ app_id, documents }) => ok(await call(KB, "/v1/kb/ingest", { bearer: API_KEY, body: { app_id, documents } })));
 server.registerTool("kb_search", {
-    title: "Search an app's knowledge base",
+    title: "Search an experience's Knowledge base",
     description: "Semantic search over the app's chunks. Returns matches with similarity scores.",
     inputSchema: {
         app_id: z.string().uuid(),
@@ -202,7 +202,7 @@ server.registerTool("kb_search", {
     }
 }, async ({ app_id, query, top_k }) => ok(await call(KB, "/v1/kb/search", { bearer: API_KEY, body: { app_id, query, top_k } })));
 server.registerTool("kb_chat", {
-    title: "Chat grounded in an app's knowledge base",
+    title: "Chat grounded in an experience's Knowledge base",
     description: "RAG chat: retrieves relevant chunks for the experience and answers with [doc:id] citations.",
     inputSchema: {
         app_id: z.string().uuid(),
