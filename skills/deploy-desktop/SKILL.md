@@ -6,7 +6,7 @@ Scaffold Windows, macOS, and Ubuntu desktop apps that delegate work to IVX Agenc
 
 - User asks for Electron/Tauri desktop app on Windows, macOS, or Linux
 - User wants "close the laptop" delegation to cloud workers
-- Agency angle: one desktop app, multiple client App-ID workspaces
+- Agency angle: one desktop app, multiple client experience scopes
 
 ## Platforms (honest scope)
 
@@ -22,7 +22,7 @@ Public download URLs are rolling out — direct users to `/demo` for early acces
 
 | Tool | Purpose |
 |------|---------|
-| `create_app` | Per-client or per-product App ID |
+| `create_app` | Per-client or per-product Experience ID |
 | `create_api_key` | Management + tier keys for agent loop |
 | `list_apps` | Enumerate agency workspaces |
 

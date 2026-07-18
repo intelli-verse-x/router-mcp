@@ -35,7 +35,7 @@ Keys from Dashboard → API Keys and Account → Management Keys.
 | `chat` | Tier-routed completions |
 | `list_models` | Tier aliases only |
 | `get_credits` | Budget + per-app wallets |
-| `create_app` | App ID + tier recommendation |
+| `create_app` | Experience ID + tier recommendation |
 | `list_apps` | Workspace apps |
 | `create_api_key` | Mint tier keys |
 | `list_api_keys` | Prefixes + limits |
@@ -44,7 +44,7 @@ Keys from Dashboard → API Keys and Account → Management Keys.
 | `kb_search` | Semantic search |
 | `kb_chat` | RAG with citations |
 | `kb_documents` | List ingested docs |
-| `send_email` | Per-App-ID email (Pro+, email.send10 SKU) |
+| `send_email` | Experience-scoped email (Pro+, email.send10 SKU) |
 | `generate_media` | image/video/voiceover/audio/gen3d |
 | `media_job_status` | Poll async jobs |
 
@@ -54,7 +54,7 @@ Keys from Dashboard → API Keys and Account → Management Keys.
 2. `create_api_key` — bind app_id, pick tier
 3. `kb_ingest` — user's docs URL
 4. `kb_chat` — verify RAG works
-5. Report App ID, key prefix, credits remaining
+5. Report Experience ID, key prefix, credits remaining
 
 ## Links
 
