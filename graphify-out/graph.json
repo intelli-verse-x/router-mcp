@@ -7,49 +7,49 @@
       "label": "Json",
       "file_type": "code",
       "source_file": "src/index.ts",
-      "source_location": "L26",
+      "source_location": "L40",
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
       "id": "src_index_json",
-      "community": 10,
-      "community_name": "Community 10",
+      "community": 11,
+      "community_name": "Community 11",
       "norm_label": "json"
     },
     {
       "label": "call()",
       "file_type": "code",
       "source_file": "src/index.ts",
-      "source_location": "L28",
+      "source_location": "L42",
       "_callable": true,
       "_origin": "ast",
       "id": "src_index_call",
-      "community": 10,
-      "community_name": "Community 10",
+      "community": 11,
+      "community_name": "Community 11",
       "norm_label": "call()"
     },
     {
       "label": "ok()",
       "file_type": "code",
       "source_file": "src/index.ts",
-      "source_location": "L70",
+      "source_location": "L84",
       "_callable": true,
       "_origin": "ast",
       "id": "src_index_ok",
-      "community": 10,
-      "community_name": "Community 10",
+      "community": 11,
+      "community_name": "Community 11",
       "norm_label": "ok()"
     },
     {
       "label": "workspace()",
       "file_type": "code",
       "source_file": "src/index.ts",
-      "source_location": "L74",
+      "source_location": "L88",
       "_callable": true,
       "_origin": "ast",
       "id": "src_index_workspace",
-      "community": 10,
-      "community_name": "Community 10",
+      "community": 11,
+      "community_name": "Community 11",
       "norm_label": "workspace()"
     },
     {
@@ -133,7 +133,7 @@
       "label": "mcpName",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L34",
+      "source_location": "L36",
       "_origin": "ast",
       "id": "package_mcpname",
       "community": 0,
@@ -183,6 +183,50 @@
       "community": 0,
       "community_name": "Community 0",
       "norm_label": "url"
+    },
+    {
+      "label": "scripts",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L20",
+      "_origin": "ast",
+      "id": "package_scripts",
+      "community": 0,
+      "community_name": "Community 0",
+      "norm_label": "scripts"
+    },
+    {
+      "label": "build",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L21",
+      "_origin": "ast",
+      "id": "package_scripts_build",
+      "community": 0,
+      "community_name": "Community 0",
+      "norm_label": "build"
+    },
+    {
+      "label": "dev",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L22",
+      "_origin": "ast",
+      "id": "package_scripts_dev",
+      "community": 0,
+      "community_name": "Community 0",
+      "norm_label": "dev"
+    },
+    {
+      "label": "start",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L23",
+      "_origin": "ast",
+      "id": "package_scripts_start",
+      "community": 0,
+      "community_name": "Community 0",
+      "norm_label": "start"
     },
     {
       "label": "type",
@@ -416,36 +460,113 @@
       "norm_label": "windsurf"
     },
     {
+      "label": "nl-app-builder/SKILL.md",
+      "file_type": "document",
+      "source_file": "skills/nl-app-builder/SKILL.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "skills_nl_app_builder_skill",
+      "community": 10,
+      "community_name": "Community 10",
+      "norm_label": "nl-app-builder/skill.md"
+    },
+    {
+      "label": "Honesty",
+      "file_type": "document",
+      "source_file": "skills/nl-app-builder/SKILL.md",
+      "source_location": "L40",
+      "_origin": "ast",
+      "id": "skills_nl_app_builder_skill_honesty",
+      "community": 10,
+      "community_name": "Community 10",
+      "norm_label": "honesty"
+    },
+    {
+      "label": "Intelliverse NL App Builder",
+      "file_type": "document",
+      "source_file": "skills/nl-app-builder/SKILL.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "skills_nl_app_builder_skill_intelliverse_nl_app_builder",
+      "community": 10,
+      "community_name": "Community 10",
+      "norm_label": "intelliverse nl app builder"
+    },
+    {
+      "label": "Links",
+      "file_type": "document",
+      "source_file": "skills/nl-app-builder/SKILL.md",
+      "source_location": "L46",
+      "_origin": "ast",
+      "id": "skills_nl_app_builder_skill_links",
+      "community": 10,
+      "community_name": "Community 10",
+      "norm_label": "links"
+    },
+    {
+      "label": "Verified MCP tools (do not invent others)",
+      "file_type": "document",
+      "source_file": "skills/nl-app-builder/SKILL.md",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "skills_nl_app_builder_skill_verified_mcp_tools_do_not_invent_others",
+      "community": 10,
+      "community_name": "Community 10",
+      "norm_label": "verified mcp tools (do not invent others)"
+    },
+    {
+      "label": "When to use",
+      "file_type": "document",
+      "source_file": "skills/nl-app-builder/SKILL.md",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "skills_nl_app_builder_skill_when_to_use",
+      "community": 10,
+      "community_name": "Community 10",
+      "norm_label": "when to use"
+    },
+    {
+      "label": "Workflow",
+      "file_type": "document",
+      "source_file": "skills/nl-app-builder/SKILL.md",
+      "source_location": "L22",
+      "_origin": "ast",
+      "id": "skills_nl_app_builder_skill_workflow",
+      "community": 10,
+      "community_name": "Community 10",
+      "norm_label": "workflow"
+    },
+    {
       "label": "index.ts",
       "file_type": "code",
       "source_file": "src/index.ts",
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_index",
-      "community": 10,
-      "community_name": "Community 10",
+      "community": 11,
+      "community_name": "Community 11",
       "norm_label": "index.ts"
     },
     {
       "label": "server",
       "file_type": "code",
       "source_file": "src/index.ts",
-      "source_location": "L80",
+      "source_location": "L94",
       "_origin": "ast",
       "id": "src_index_server",
-      "community": 10,
-      "community_name": "Community 10",
+      "community": 11,
+      "community_name": "Community 11",
       "norm_label": "server"
     },
     {
       "label": "transport",
       "file_type": "code",
       "source_file": "src/index.ts",
-      "source_location": "L384",
+      "source_location": "L398",
       "_origin": "ast",
       "id": "src_index_transport",
-      "community": 10,
-      "community_name": "Community 10",
+      "community": 11,
+      "community_name": "Community 11",
       "norm_label": "transport"
     },
     {
@@ -455,8 +576,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "agents",
-      "community": 11,
-      "community_name": "Community 11",
+      "community": 12,
+      "community_name": "Community 12",
       "norm_label": "agents.md"
     },
     {
@@ -466,8 +587,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "agents_agent_instructions",
-      "community": 11,
-      "community_name": "Community 11",
+      "community": 12,
+      "community_name": "Community 12",
       "norm_label": "agent instructions"
     },
     {
@@ -477,8 +598,8 @@
       "source_location": "L4",
       "_origin": "ast",
       "id": "agents_code_memory_graphify_use_this_before_grepping",
-      "community": 11,
-      "community_name": "Community 11",
+      "community": 12,
+      "community_name": "Community 12",
       "norm_label": "code memory (graphify) \u2014 use this before grepping"
     },
     {
@@ -488,8 +609,8 @@
       "source_location": "L31",
       "_origin": "ast",
       "id": "agents_ops",
-      "community": 11,
-      "community_name": "Community 11",
+      "community": 12,
+      "community_name": "Community 12",
       "norm_label": "ops"
     },
     {
@@ -499,108 +620,20 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "agents_without_mcp_primary_for_this_tier",
-      "community": 11,
-      "community_name": "Community 11",
+      "community": 12,
+      "community_name": "Community 12",
       "norm_label": "without mcp (primary for this tier)"
     },
     {
-      "label": "dependencies",
+      "label": "node-fetch",
       "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L25",
+      "source_file": "node-fetch",
+      "confidence": "EXTRACTED",
       "_origin": "ast",
-      "id": "package_dependencies",
-      "community": 12,
-      "community_name": "Community 12",
-      "norm_label": "dependencies"
-    },
-    {
-      "label": "@modelcontextprotocol/sdk",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L26",
-      "_origin": "ast",
-      "id": "package_dependencies_modelcontextprotocol_sdk",
-      "community": 12,
-      "community_name": "Community 12",
-      "norm_label": "@modelcontextprotocol/sdk"
-    },
-    {
-      "label": "zod",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L27",
-      "_origin": "ast",
-      "id": "package_dependencies_zod",
-      "community": 12,
-      "community_name": "Community 12",
-      "norm_label": "zod"
-    },
-    {
-      "label": "@modelcontextprotocol/sdk",
-      "file_type": "concept",
-      "source_file": "package.json",
-      "source_location": "L26",
-      "_origin": "ast",
-      "id": "modelcontextprotocol_sdk",
-      "community": 12,
-      "community_name": "Community 12",
-      "norm_label": "@modelcontextprotocol/sdk"
-    },
-    {
-      "label": "zod",
-      "file_type": "concept",
-      "source_file": "package.json",
-      "source_location": "L27",
-      "_origin": "ast",
-      "id": "zod",
-      "community": 12,
-      "community_name": "Community 12",
-      "norm_label": "zod"
-    },
-    {
-      "label": "scripts",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L20",
-      "_origin": "ast",
-      "id": "package_scripts",
+      "id": "node_fetch_node_fetch",
       "community": 13,
       "community_name": "Community 13",
-      "norm_label": "scripts"
-    },
-    {
-      "label": "build",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L21",
-      "_origin": "ast",
-      "id": "package_scripts_build",
-      "community": 13,
-      "community_name": "Community 13",
-      "norm_label": "build"
-    },
-    {
-      "label": "dev",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L22",
-      "_origin": "ast",
-      "id": "package_scripts_dev",
-      "community": 13,
-      "community_name": "Community 13",
-      "norm_label": "dev"
-    },
-    {
-      "label": "start",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L23",
-      "_origin": "ast",
-      "id": "package_scripts_start",
-      "community": 13,
-      "community_name": "Community 13",
-      "norm_label": "start"
+      "norm_label": "node-fetch"
     },
     {
       "label": "tsconfig.json",
@@ -757,14 +790,113 @@
       "norm_label": "src"
     },
     {
+      "label": "dependencies",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L25",
+      "_origin": "ast",
+      "id": "package_dependencies",
+      "community": 3,
+      "community_name": "Community 3",
+      "norm_label": "dependencies"
+    },
+    {
+      "label": "dotenv",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L27",
+      "_origin": "ast",
+      "id": "package_dependencies_dotenv",
+      "community": 3,
+      "community_name": "Community 3",
+      "norm_label": "dotenv"
+    },
+    {
+      "label": "@modelcontextprotocol/sdk",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L26",
+      "_origin": "ast",
+      "id": "package_dependencies_modelcontextprotocol_sdk",
+      "community": 3,
+      "community_name": "Community 3",
+      "norm_label": "@modelcontextprotocol/sdk"
+    },
+    {
+      "label": "node-fetch",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L28",
+      "_origin": "ast",
+      "id": "package_dependencies_node_fetch",
+      "community": 3,
+      "community_name": "Community 3",
+      "norm_label": "node-fetch"
+    },
+    {
+      "label": "zod",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L29",
+      "_origin": "ast",
+      "id": "package_dependencies_zod",
+      "community": 3,
+      "community_name": "Community 3",
+      "norm_label": "zod"
+    },
+    {
+      "label": "dotenv",
+      "file_type": "concept",
+      "source_file": "package.json",
+      "source_location": "L27",
+      "_origin": "ast",
+      "id": "dotenv",
+      "community": 3,
+      "community_name": "Community 3",
+      "norm_label": "dotenv"
+    },
+    {
+      "label": "@modelcontextprotocol/sdk",
+      "file_type": "concept",
+      "source_file": "package.json",
+      "source_location": "L26",
+      "_origin": "ast",
+      "id": "modelcontextprotocol_sdk",
+      "community": 3,
+      "community_name": "Community 3",
+      "norm_label": "@modelcontextprotocol/sdk"
+    },
+    {
+      "label": "node-fetch",
+      "file_type": "concept",
+      "source_file": "package.json",
+      "source_location": "L28",
+      "_origin": "ast",
+      "id": "package_json_node_fetch",
+      "community": 3,
+      "community_name": "Community 3",
+      "norm_label": "node-fetch"
+    },
+    {
+      "label": "zod",
+      "file_type": "concept",
+      "source_file": "package.json",
+      "source_location": "L29",
+      "_origin": "ast",
+      "id": "zod",
+      "community": 3,
+      "community_name": "Community 3",
+      "norm_label": "zod"
+    },
+    {
       "label": "server.json",
       "file_type": "code",
       "source_file": "server.json",
       "source_location": "L1",
       "_origin": "ast",
       "id": "server",
-      "community": 3,
-      "community_name": "Community 3",
+      "community": 4,
+      "community_name": "Community 4",
       "norm_label": "server.json"
     },
     {
@@ -774,8 +906,8 @@
       "source_location": "L4",
       "_origin": "ast",
       "id": "server_description",
-      "community": 3,
-      "community_name": "Community 3",
+      "community": 4,
+      "community_name": "Community 4",
       "norm_label": "description"
     },
     {
@@ -785,8 +917,8 @@
       "source_location": "L3",
       "_origin": "ast",
       "id": "server_name",
-      "community": 3,
-      "community_name": "Community 3",
+      "community": 4,
+      "community_name": "Community 4",
       "norm_label": "name"
     },
     {
@@ -796,8 +928,8 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "server_packages",
-      "community": 3,
-      "community_name": "Community 3",
+      "community": 4,
+      "community_name": "Community 4",
       "norm_label": "packages"
     },
     {
@@ -807,8 +939,8 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "server_repository",
-      "community": 3,
-      "community_name": "Community 3",
+      "community": 4,
+      "community_name": "Community 4",
       "norm_label": "repository"
     },
     {
@@ -818,8 +950,8 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "server_repository_source",
-      "community": 3,
-      "community_name": "Community 3",
+      "community": 4,
+      "community_name": "Community 4",
       "norm_label": "source"
     },
     {
@@ -829,8 +961,8 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "server_repository_url",
-      "community": 3,
-      "community_name": "Community 3",
+      "community": 4,
+      "community_name": "Community 4",
       "norm_label": "url"
     },
     {
@@ -840,8 +972,8 @@
       "source_location": "L2",
       "_origin": "ast",
       "id": "server_schema",
-      "community": 3,
-      "community_name": "Community 3",
+      "community": 4,
+      "community_name": "Community 4",
       "norm_label": "$schema"
     },
     {
@@ -851,8 +983,8 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "server_version",
-      "community": 3,
-      "community_name": "Community 3",
+      "community": 4,
+      "community_name": "Community 4",
       "norm_label": "version"
     },
     {
@@ -862,8 +994,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "skills_conversational_avatar_skill",
-      "community": 4,
-      "community_name": "Community 4",
+      "community": 5,
+      "community_name": "Community 5",
       "norm_label": "conversational-avatar/skill.md"
     },
     {
@@ -873,8 +1005,8 @@
       "source_location": "L54",
       "_origin": "ast",
       "id": "skills_conversational_avatar_skill_billing",
-      "community": 4,
-      "community_name": "Community 4",
+      "community": 5,
+      "community_name": "Community 5",
       "norm_label": "billing"
     },
     {
@@ -884,8 +1016,8 @@
       "source_location": "L60",
       "_origin": "ast",
       "id": "skills_conversational_avatar_skill_honesty",
-      "community": 4,
-      "community_name": "Community 4",
+      "community": 5,
+      "community_name": "Community 5",
       "norm_label": "honesty"
     },
     {
@@ -895,8 +1027,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "skills_conversational_avatar_skill_intelliverse_conversational_avatar",
-      "community": 4,
-      "community_name": "Community 4",
+      "community": 5,
+      "community_name": "Community 5",
       "norm_label": "intelliverse conversational avatar"
     },
     {
@@ -906,8 +1038,8 @@
       "source_location": "L71",
       "_origin": "ast",
       "id": "skills_conversational_avatar_skill_links",
-      "community": 4,
-      "community_name": "Community 4",
+      "community": 5,
+      "community_name": "Community 5",
       "norm_label": "links"
     },
     {
@@ -917,8 +1049,8 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "skills_conversational_avatar_skill_the_wiring_verified_endpoints_do_not_invent_others",
-      "community": 4,
-      "community_name": "Community 4",
+      "community": 5,
+      "community_name": "Community 5",
       "norm_label": "the wiring (verified endpoints, do not invent others)"
     },
     {
@@ -928,8 +1060,8 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "skills_conversational_avatar_skill_when_to_use",
-      "community": 4,
-      "community_name": "Community 4",
+      "community": 5,
+      "community_name": "Community 5",
       "norm_label": "when to use"
     },
     {
@@ -939,8 +1071,8 @@
       "source_location": "L28",
       "_origin": "ast",
       "id": "skills_conversational_avatar_skill_workflow",
-      "community": 4,
-      "community_name": "Community 4",
+      "community": 5,
+      "community_name": "Community 5",
       "norm_label": "workflow"
     },
     {
@@ -950,8 +1082,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "skills_deploy_desktop_skill",
-      "community": 5,
-      "community_name": "Community 5",
+      "community": 6,
+      "community_name": "Community 6",
       "norm_label": "deploy-desktop/skill.md"
     },
     {
@@ -961,8 +1093,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "skills_deploy_desktop_skill_deploy_desktop_app_ivx_agency",
-      "community": 5,
-      "community_name": "Community 5",
+      "community": 6,
+      "community_name": "Community 6",
       "norm_label": "deploy desktop app (ivx agency)"
     },
     {
@@ -972,8 +1104,8 @@
       "source_location": "L37",
       "_origin": "ast",
       "id": "skills_deploy_desktop_skill_honesty",
-      "community": 5,
-      "community_name": "Community 5",
+      "community": 6,
+      "community_name": "Community 6",
       "norm_label": "honesty"
     },
     {
@@ -983,8 +1115,8 @@
       "source_location": "L43",
       "_origin": "ast",
       "id": "skills_deploy_desktop_skill_links",
-      "community": 5,
-      "community_name": "Community 5",
+      "community": 6,
+      "community_name": "Community 6",
       "norm_label": "links"
     },
     {
@@ -994,8 +1126,8 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "skills_deploy_desktop_skill_platforms_honest_scope",
-      "community": 5,
-      "community_name": "Community 5",
+      "community": 6,
+      "community_name": "Community 6",
       "norm_label": "platforms (honest scope)"
     },
     {
@@ -1005,8 +1137,8 @@
       "source_location": "L21",
       "_origin": "ast",
       "id": "skills_deploy_desktop_skill_verified_mcp_tools",
-      "community": 5,
-      "community_name": "Community 5",
+      "community": 6,
+      "community_name": "Community 6",
       "norm_label": "verified mcp tools"
     },
     {
@@ -1016,8 +1148,8 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "skills_deploy_desktop_skill_when_to_use",
-      "community": 5,
-      "community_name": "Community 5",
+      "community": 6,
+      "community_name": "Community 6",
       "norm_label": "when to use"
     },
     {
@@ -1027,8 +1159,8 @@
       "source_location": "L29",
       "_origin": "ast",
       "id": "skills_deploy_desktop_skill_workflow",
-      "community": 5,
-      "community_name": "Community 5",
+      "community": 6,
+      "community_name": "Community 6",
       "norm_label": "workflow"
     },
     {
@@ -1038,8 +1170,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "skills_scaffold_game_skill",
-      "community": 6,
-      "community_name": "Community 6",
+      "community": 7,
+      "community_name": "Community 7",
       "norm_label": "scaffold-game/skill.md"
     },
     {
@@ -1049,8 +1181,8 @@
       "source_location": "L38",
       "_origin": "ast",
       "id": "skills_scaffold_game_skill_example_rpc_stub_typescript",
-      "community": 6,
-      "community_name": "Community 6",
+      "community": 7,
+      "community_name": "Community 7",
       "norm_label": "example rpc stub (typescript)"
     },
     {
@@ -1060,8 +1192,8 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "skills_scaffold_game_skill_honest_scope",
-      "community": 6,
-      "community_name": "Community 6",
+      "community": 7,
+      "community_name": "Community 7",
       "norm_label": "honest scope"
     },
     {
@@ -1071,8 +1203,8 @@
       "source_location": "L47",
       "_origin": "ast",
       "id": "skills_scaffold_game_skill_links",
-      "community": 6,
-      "community_name": "Community 6",
+      "community": 7,
+      "community_name": "Community 7",
       "norm_label": "links"
     },
     {
@@ -1082,8 +1214,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "skills_scaffold_game_skill_scaffold_game_backend_nakama",
-      "community": 6,
-      "community_name": "Community 6",
+      "community": 7,
+      "community_name": "Community 7",
       "norm_label": "scaffold game backend (nakama)"
     },
     {
@@ -1093,8 +1225,8 @@
       "source_location": "L22",
       "_origin": "ast",
       "id": "skills_scaffold_game_skill_verified_mcp_tools",
-      "community": 6,
-      "community_name": "Community 6",
+      "community": 7,
+      "community_name": "Community 7",
       "norm_label": "verified mcp tools"
     },
     {
@@ -1104,8 +1236,8 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "skills_scaffold_game_skill_when_to_use",
-      "community": 6,
-      "community_name": "Community 6",
+      "community": 7,
+      "community_name": "Community 7",
       "norm_label": "when to use"
     },
     {
@@ -1115,85 +1247,85 @@
       "source_location": "L30",
       "_origin": "ast",
       "id": "skills_scaffold_game_skill_workflow",
-      "community": 6,
-      "community_name": "Community 6",
+      "community": 7,
+      "community_name": "Community 7",
       "norm_label": "workflow"
     },
     {
       "label": "devDependencies",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L29",
+      "source_location": "L31",
       "_origin": "ast",
       "id": "package_devdependencies",
-      "community": 7,
-      "community_name": "Community 7",
+      "community": 8,
+      "community_name": "Community 8",
       "norm_label": "devdependencies"
     },
     {
       "label": "tsx",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L31",
+      "source_location": "L33",
       "_origin": "ast",
       "id": "package_devdependencies_tsx",
-      "community": 7,
-      "community_name": "Community 7",
+      "community": 8,
+      "community_name": "Community 8",
       "norm_label": "tsx"
     },
     {
       "label": "@types/node",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L30",
+      "source_location": "L32",
       "_origin": "ast",
       "id": "package_devdependencies_types_node",
-      "community": 7,
-      "community_name": "Community 7",
+      "community": 8,
+      "community_name": "Community 8",
       "norm_label": "@types/node"
     },
     {
       "label": "typescript",
       "file_type": "code",
       "source_file": "package.json",
-      "source_location": "L32",
+      "source_location": "L34",
       "_origin": "ast",
       "id": "package_devdependencies_typescript",
-      "community": 7,
-      "community_name": "Community 7",
+      "community": 8,
+      "community_name": "Community 8",
       "norm_label": "typescript"
     },
     {
       "label": "tsx",
       "file_type": "concept",
       "source_file": "package.json",
-      "source_location": "L31",
+      "source_location": "L33",
       "_origin": "ast",
       "id": "tsx",
-      "community": 7,
-      "community_name": "Community 7",
+      "community": 8,
+      "community_name": "Community 8",
       "norm_label": "tsx"
     },
     {
       "label": "@types/node",
       "file_type": "concept",
       "source_file": "package.json",
-      "source_location": "L30",
+      "source_location": "L32",
       "_origin": "ast",
       "id": "types_node",
-      "community": 7,
-      "community_name": "Community 7",
+      "community": 8,
+      "community_name": "Community 8",
       "norm_label": "@types/node"
     },
     {
       "label": "typescript",
       "file_type": "concept",
       "source_file": "package.json",
-      "source_location": "L32",
+      "source_location": "L34",
       "_origin": "ast",
       "id": "typescript",
-      "community": 7,
-      "community_name": "Community 7",
+      "community": 8,
+      "community_name": "Community 8",
       "norm_label": "typescript"
     },
     {
@@ -1203,8 +1335,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "skills_intelliverse_router_skill",
-      "community": 8,
-      "community_name": "Community 8",
+      "community": 9,
+      "community_name": "Community 9",
       "norm_label": "intelliverse-router/skill.md"
     },
     {
@@ -1214,8 +1346,8 @@
       "source_location": "L51",
       "_origin": "ast",
       "id": "skills_intelliverse_router_skill_60_second_loop",
-      "community": 8,
-      "community_name": "Community 8",
+      "community": 9,
+      "community_name": "Community 9",
       "norm_label": "60-second loop"
     },
     {
@@ -1225,8 +1357,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "skills_intelliverse_router_skill_intelliverse_router_mcp",
-      "community": 8,
-      "community_name": "Community 8",
+      "community": 9,
+      "community_name": "Community 9",
       "norm_label": "intelliverse router mcp"
     },
     {
@@ -1236,8 +1368,8 @@
       "source_location": "L59",
       "_origin": "ast",
       "id": "skills_intelliverse_router_skill_links",
-      "community": 8,
-      "community_name": "Community 8",
+      "community": 9,
+      "community_name": "Community 9",
       "norm_label": "links"
     },
     {
@@ -1247,8 +1379,8 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "skills_intelliverse_router_skill_one_block_mcp_config",
-      "community": 8,
-      "community_name": "Community 8",
+      "community": 9,
+      "community_name": "Community 9",
       "norm_label": "one-block mcp config"
     },
     {
@@ -1258,8 +1390,8 @@
       "source_location": "L31",
       "_origin": "ast",
       "id": "skills_intelliverse_router_skill_verified_tools_mcp_dist_index_js",
-      "community": 8,
-      "community_name": "Community 8",
+      "community": 9,
+      "community_name": "Community 9",
       "norm_label": "verified tools (mcp/dist/index.js)"
     },
     {
@@ -1269,86 +1401,9 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "skills_intelliverse_router_skill_when_to_use",
-      "community": 8,
-      "community_name": "Community 8",
-      "norm_label": "when to use"
-    },
-    {
-      "label": "nl-app-builder/SKILL.md",
-      "file_type": "document",
-      "source_file": "skills/nl-app-builder/SKILL.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "skills_nl_app_builder_skill",
-      "community": 9,
-      "community_name": "Community 9",
-      "norm_label": "nl-app-builder/skill.md"
-    },
-    {
-      "label": "Honesty",
-      "file_type": "document",
-      "source_file": "skills/nl-app-builder/SKILL.md",
-      "source_location": "L40",
-      "_origin": "ast",
-      "id": "skills_nl_app_builder_skill_honesty",
-      "community": 9,
-      "community_name": "Community 9",
-      "norm_label": "honesty"
-    },
-    {
-      "label": "Intelliverse NL App Builder",
-      "file_type": "document",
-      "source_file": "skills/nl-app-builder/SKILL.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "skills_nl_app_builder_skill_intelliverse_nl_app_builder",
-      "community": 9,
-      "community_name": "Community 9",
-      "norm_label": "intelliverse nl app builder"
-    },
-    {
-      "label": "Links",
-      "file_type": "document",
-      "source_file": "skills/nl-app-builder/SKILL.md",
-      "source_location": "L46",
-      "_origin": "ast",
-      "id": "skills_nl_app_builder_skill_links",
-      "community": 9,
-      "community_name": "Community 9",
-      "norm_label": "links"
-    },
-    {
-      "label": "Verified MCP tools (do not invent others)",
-      "file_type": "document",
-      "source_file": "skills/nl-app-builder/SKILL.md",
-      "source_location": "L11",
-      "_origin": "ast",
-      "id": "skills_nl_app_builder_skill_verified_mcp_tools_do_not_invent_others",
-      "community": 9,
-      "community_name": "Community 9",
-      "norm_label": "verified mcp tools (do not invent others)"
-    },
-    {
-      "label": "When to use",
-      "file_type": "document",
-      "source_file": "skills/nl-app-builder/SKILL.md",
-      "source_location": "L5",
-      "_origin": "ast",
-      "id": "skills_nl_app_builder_skill_when_to_use",
       "community": 9,
       "community_name": "Community 9",
       "norm_label": "when to use"
-    },
-    {
-      "label": "Workflow",
-      "file_type": "document",
-      "source_file": "skills/nl-app-builder/SKILL.md",
-      "source_location": "L22",
-      "_origin": "ast",
-      "id": "skills_nl_app_builder_skill_workflow",
-      "community": 9,
-      "community_name": "Community 9",
-      "norm_label": "workflow"
     }
   ],
   "links": [
@@ -1404,6 +1459,18 @@
       "relation": "imports",
       "confidence": "EXTRACTED",
       "source_file": "package.json",
+      "source_location": "L27",
+      "weight": 1.0,
+      "context": "import",
+      "_origin": "ast",
+      "source": "package_dependencies_dotenv",
+      "target": "dotenv",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
       "source_location": "L26",
       "weight": 1.0,
       "context": "import",
@@ -1416,7 +1483,19 @@
       "relation": "imports",
       "confidence": "EXTRACTED",
       "source_file": "package.json",
-      "source_location": "L27",
+      "source_location": "L28",
+      "weight": 1.0,
+      "context": "import",
+      "_origin": "ast",
+      "source": "package_dependencies_node_fetch",
+      "target": "package_json_node_fetch",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L29",
       "weight": 1.0,
       "context": "import",
       "_origin": "ast",
@@ -1428,7 +1507,7 @@
       "relation": "imports",
       "confidence": "EXTRACTED",
       "source_file": "package.json",
-      "source_location": "L31",
+      "source_location": "L33",
       "weight": 1.0,
       "context": "import",
       "_origin": "ast",
@@ -1440,7 +1519,7 @@
       "relation": "imports",
       "confidence": "EXTRACTED",
       "source_file": "package.json",
-      "source_location": "L30",
+      "source_location": "L32",
       "weight": 1.0,
       "context": "import",
       "_origin": "ast",
@@ -1452,7 +1531,7 @@
       "relation": "imports",
       "confidence": "EXTRACTED",
       "source_file": "package.json",
-      "source_location": "L32",
+      "source_location": "L34",
       "weight": 1.0,
       "context": "import",
       "_origin": "ast",
@@ -1574,17 +1653,6 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "package.json",
-      "source_location": "L29",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "package",
-      "target": "package_devdependencies",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
       "source_location": "L3",
       "weight": 1.0,
       "_origin": "ast",
@@ -1596,7 +1664,18 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "package.json",
-      "source_location": "L34",
+      "source_location": "L31",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "package",
+      "target": "package_devdependencies",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L36",
       "weight": 1.0,
       "_origin": "ast",
       "source": "package",
@@ -1677,6 +1756,28 @@
       "weight": 1.0,
       "_origin": "ast",
       "source": "package_dependencies",
+      "target": "package_dependencies_dotenv",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L28",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "package_dependencies",
+      "target": "package_dependencies_node_fetch",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L29",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "package_dependencies",
       "target": "package_dependencies_zod",
       "confidence_score": 1.0
     },
@@ -1684,7 +1785,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "package.json",
-      "source_location": "L30",
+      "source_location": "L32",
       "weight": 1.0,
       "_origin": "ast",
       "source": "package_devdependencies",
@@ -1695,7 +1796,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "package.json",
-      "source_location": "L31",
+      "source_location": "L33",
       "weight": 1.0,
       "_origin": "ast",
       "source": "package_devdependencies",
@@ -1706,7 +1807,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "package.json",
-      "source_location": "L32",
+      "source_location": "L34",
       "weight": 1.0,
       "_origin": "ast",
       "source": "package_devdependencies",
@@ -2388,29 +2489,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "src/index.ts",
-      "source_location": "L26",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "src_index",
-      "target": "src_index_json",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/index.ts",
-      "source_location": "L28",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "src_index",
-      "target": "src_index_call",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/index.ts",
-      "source_location": "L384",
+      "source_location": "L398",
       "weight": 1.0,
       "_origin": "ast",
       "source": "src_index",
@@ -2421,7 +2500,29 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "src/index.ts",
-      "source_location": "L70",
+      "source_location": "L40",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_index",
+      "target": "src_index_json",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/index.ts",
+      "source_location": "L42",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_index",
+      "target": "src_index_call",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/index.ts",
+      "source_location": "L84",
       "weight": 1.0,
       "_origin": "ast",
       "source": "src_index",
@@ -2432,7 +2533,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "src/index.ts",
-      "source_location": "L74",
+      "source_location": "L88",
       "weight": 1.0,
       "_origin": "ast",
       "source": "src_index",
@@ -2443,7 +2544,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "src/index.ts",
-      "source_location": "L80",
+      "source_location": "L94",
       "weight": 1.0,
       "_origin": "ast",
       "source": "src_index",
@@ -2584,5 +2685,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "198328c303874399bfd7ab8fda1f65fa2b4cdea5"
+  "built_at_commit": "2b4679de9a4e4631e263fb5817edbb8124b95ecd"
 }
