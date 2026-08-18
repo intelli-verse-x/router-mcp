@@ -286,6 +286,7 @@
     {
       "label": "README.md",
       "file_type": "document",
+      "node_kind": "page",
       "source_file": "README.md",
       "source_location": "L1",
       "_origin": "ast",
@@ -297,6 +298,7 @@
     {
       "label": "Agent Skills",
       "file_type": "document",
+      "node_kind": "heading",
       "source_file": "README.md",
       "source_location": "L136",
       "_origin": "ast",
@@ -308,6 +310,7 @@
     {
       "label": "ChatGPT",
       "file_type": "document",
+      "node_kind": "heading",
       "source_file": "README.md",
       "source_location": "L129",
       "_origin": "ast",
@@ -319,6 +322,7 @@
     {
       "label": "Claude Code",
       "file_type": "document",
+      "node_kind": "heading",
       "source_file": "README.md",
       "source_location": "L64",
       "_origin": "ast",
@@ -330,6 +334,7 @@
     {
       "label": "Claude Desktop",
       "file_type": "document",
+      "node_kind": "heading",
       "source_file": "README.md",
       "source_location": "L59",
       "_origin": "ast",
@@ -341,6 +346,7 @@
     {
       "label": "Cline",
       "file_type": "document",
+      "node_kind": "heading",
       "source_file": "README.md",
       "source_location": "L99",
       "_origin": "ast",
@@ -352,6 +358,7 @@
     {
       "label": "Continue",
       "file_type": "document",
+      "node_kind": "heading",
       "source_file": "README.md",
       "source_location": "L104",
       "_origin": "ast",
@@ -363,6 +370,7 @@
     {
       "label": "Cursor",
       "file_type": "document",
+      "node_kind": "heading",
       "source_file": "README.md",
       "source_location": "L38",
       "_origin": "ast",
@@ -374,6 +382,7 @@
     {
       "label": "Development",
       "file_type": "document",
+      "node_kind": "heading",
       "source_file": "README.md",
       "source_location": "L163",
       "_origin": "ast",
@@ -385,6 +394,7 @@
     {
       "label": "Install per platform",
       "file_type": "document",
+      "node_kind": "heading",
       "source_file": "README.md",
       "source_location": "L34",
       "_origin": "ast",
@@ -396,6 +406,7 @@
     {
       "label": "Intelliverse Router MCP server + Agent Skills",
       "file_type": "document",
+      "node_kind": "heading",
       "source_file": "README.md",
       "source_location": "L1",
       "_origin": "ast",
@@ -407,6 +418,7 @@
     {
       "label": "OpenAI Codex CLI",
       "file_type": "document",
+      "node_kind": "heading",
       "source_file": "README.md",
       "source_location": "L119",
       "_origin": "ast",
@@ -418,6 +430,7 @@
     {
       "label": "The 60-second loop",
       "file_type": "document",
+      "node_kind": "heading",
       "source_file": "README.md",
       "source_location": "L155",
       "_origin": "ast",
@@ -429,6 +442,7 @@
     {
       "label": "Tools (15)",
       "file_type": "document",
+      "node_kind": "heading",
       "source_file": "README.md",
       "source_location": "L15",
       "_origin": "ast",
@@ -440,6 +454,7 @@
     {
       "label": "VS Code (GitHub Copilot)",
       "file_type": "document",
+      "node_kind": "heading",
       "source_file": "README.md",
       "source_location": "L74",
       "_origin": "ast",
@@ -451,6 +466,7 @@
     {
       "label": "Windsurf",
       "file_type": "document",
+      "node_kind": "heading",
       "source_file": "README.md",
       "source_location": "L95",
       "_origin": "ast",
@@ -462,6 +478,7 @@
     {
       "label": "nl-app-builder/SKILL.md",
       "file_type": "document",
+      "node_kind": "page",
       "source_file": "skills/nl-app-builder/SKILL.md",
       "source_location": "L1",
       "_origin": "ast",
@@ -473,6 +490,7 @@
     {
       "label": "Honesty",
       "file_type": "document",
+      "node_kind": "heading",
       "source_file": "skills/nl-app-builder/SKILL.md",
       "source_location": "L40",
       "_origin": "ast",
@@ -484,6 +502,7 @@
     {
       "label": "Intelliverse NL App Builder",
       "file_type": "document",
+      "node_kind": "heading",
       "source_file": "skills/nl-app-builder/SKILL.md",
       "source_location": "L1",
       "_origin": "ast",
@@ -495,6 +514,7 @@
     {
       "label": "Links",
       "file_type": "document",
+      "node_kind": "heading",
       "source_file": "skills/nl-app-builder/SKILL.md",
       "source_location": "L46",
       "_origin": "ast",
@@ -506,6 +526,7 @@
     {
       "label": "Verified MCP tools (do not invent others)",
       "file_type": "document",
+      "node_kind": "heading",
       "source_file": "skills/nl-app-builder/SKILL.md",
       "source_location": "L11",
       "_origin": "ast",
@@ -517,6 +538,7 @@
     {
       "label": "When to use",
       "file_type": "document",
+      "node_kind": "heading",
       "source_file": "skills/nl-app-builder/SKILL.md",
       "source_location": "L5",
       "_origin": "ast",
@@ -528,6 +550,7 @@
     {
       "label": "Workflow",
       "file_type": "document",
+      "node_kind": "heading",
       "source_file": "skills/nl-app-builder/SKILL.md",
       "source_location": "L22",
       "_origin": "ast",
@@ -572,6 +595,7 @@
     {
       "label": "AGENTS.md",
       "file_type": "document",
+      "node_kind": "page",
       "source_file": "AGENTS.md",
       "source_location": "L1",
       "_origin": "ast",
@@ -583,6 +607,7 @@
     {
       "label": "Agent instructions",
       "file_type": "document",
+      "node_kind": "heading",
       "source_file": "AGENTS.md",
       "source_location": "L1",
       "_origin": "ast",
@@ -594,6 +619,7 @@
     {
       "label": "Code memory (Graphify) \u2014 use this before grepping",
       "file_type": "document",
+      "node_kind": "heading",
       "source_file": "AGENTS.md",
       "source_location": "L4",
       "_origin": "ast",
@@ -605,6 +631,7 @@
     {
       "label": "Ops",
       "file_type": "document",
+      "node_kind": "heading",
       "source_file": "AGENTS.md",
       "source_location": "L31",
       "_origin": "ast",
@@ -616,6 +643,7 @@
     {
       "label": "Without MCP (primary for this tier)",
       "file_type": "document",
+      "node_kind": "heading",
       "source_file": "AGENTS.md",
       "source_location": "L9",
       "_origin": "ast",
@@ -990,6 +1018,7 @@
     {
       "label": "conversational-avatar/SKILL.md",
       "file_type": "document",
+      "node_kind": "page",
       "source_file": "skills/conversational-avatar/SKILL.md",
       "source_location": "L1",
       "_origin": "ast",
@@ -1001,6 +1030,7 @@
     {
       "label": "Billing",
       "file_type": "document",
+      "node_kind": "heading",
       "source_file": "skills/conversational-avatar/SKILL.md",
       "source_location": "L54",
       "_origin": "ast",
@@ -1012,6 +1042,7 @@
     {
       "label": "Honesty",
       "file_type": "document",
+      "node_kind": "heading",
       "source_file": "skills/conversational-avatar/SKILL.md",
       "source_location": "L60",
       "_origin": "ast",
@@ -1023,6 +1054,7 @@
     {
       "label": "Intelliverse Conversational Avatar",
       "file_type": "document",
+      "node_kind": "heading",
       "source_file": "skills/conversational-avatar/SKILL.md",
       "source_location": "L1",
       "_origin": "ast",
@@ -1034,6 +1066,7 @@
     {
       "label": "Links",
       "file_type": "document",
+      "node_kind": "heading",
       "source_file": "skills/conversational-avatar/SKILL.md",
       "source_location": "L71",
       "_origin": "ast",
@@ -1045,6 +1078,7 @@
     {
       "label": "The wiring (verified endpoints, do not invent others)",
       "file_type": "document",
+      "node_kind": "heading",
       "source_file": "skills/conversational-avatar/SKILL.md",
       "source_location": "L13",
       "_origin": "ast",
@@ -1056,6 +1090,7 @@
     {
       "label": "When to use",
       "file_type": "document",
+      "node_kind": "heading",
       "source_file": "skills/conversational-avatar/SKILL.md",
       "source_location": "L7",
       "_origin": "ast",
@@ -1067,6 +1102,7 @@
     {
       "label": "Workflow",
       "file_type": "document",
+      "node_kind": "heading",
       "source_file": "skills/conversational-avatar/SKILL.md",
       "source_location": "L28",
       "_origin": "ast",
@@ -1078,6 +1114,7 @@
     {
       "label": "deploy-desktop/SKILL.md",
       "file_type": "document",
+      "node_kind": "page",
       "source_file": "skills/deploy-desktop/SKILL.md",
       "source_location": "L1",
       "_origin": "ast",
@@ -1089,6 +1126,7 @@
     {
       "label": "Deploy Desktop App (IVX Agency)",
       "file_type": "document",
+      "node_kind": "heading",
       "source_file": "skills/deploy-desktop/SKILL.md",
       "source_location": "L1",
       "_origin": "ast",
@@ -1100,6 +1138,7 @@
     {
       "label": "Honesty",
       "file_type": "document",
+      "node_kind": "heading",
       "source_file": "skills/deploy-desktop/SKILL.md",
       "source_location": "L37",
       "_origin": "ast",
@@ -1111,6 +1150,7 @@
     {
       "label": "Links",
       "file_type": "document",
+      "node_kind": "heading",
       "source_file": "skills/deploy-desktop/SKILL.md",
       "source_location": "L43",
       "_origin": "ast",
@@ -1122,6 +1162,7 @@
     {
       "label": "Platforms (honest scope)",
       "file_type": "document",
+      "node_kind": "heading",
       "source_file": "skills/deploy-desktop/SKILL.md",
       "source_location": "L11",
       "_origin": "ast",
@@ -1133,6 +1174,7 @@
     {
       "label": "Verified MCP tools",
       "file_type": "document",
+      "node_kind": "heading",
       "source_file": "skills/deploy-desktop/SKILL.md",
       "source_location": "L21",
       "_origin": "ast",
@@ -1144,6 +1186,7 @@
     {
       "label": "When to use",
       "file_type": "document",
+      "node_kind": "heading",
       "source_file": "skills/deploy-desktop/SKILL.md",
       "source_location": "L5",
       "_origin": "ast",
@@ -1155,6 +1198,7 @@
     {
       "label": "Workflow",
       "file_type": "document",
+      "node_kind": "heading",
       "source_file": "skills/deploy-desktop/SKILL.md",
       "source_location": "L29",
       "_origin": "ast",
@@ -1166,6 +1210,7 @@
     {
       "label": "scaffold-game/SKILL.md",
       "file_type": "document",
+      "node_kind": "page",
       "source_file": "skills/scaffold-game/SKILL.md",
       "source_location": "L1",
       "_origin": "ast",
@@ -1177,6 +1222,7 @@
     {
       "label": "Example RPC stub (TypeScript)",
       "file_type": "document",
+      "node_kind": "heading",
       "source_file": "skills/scaffold-game/SKILL.md",
       "source_location": "L38",
       "_origin": "ast",
@@ -1188,6 +1234,7 @@
     {
       "label": "Honest scope",
       "file_type": "document",
+      "node_kind": "heading",
       "source_file": "skills/scaffold-game/SKILL.md",
       "source_location": "L11",
       "_origin": "ast",
@@ -1199,6 +1246,7 @@
     {
       "label": "Links",
       "file_type": "document",
+      "node_kind": "heading",
       "source_file": "skills/scaffold-game/SKILL.md",
       "source_location": "L47",
       "_origin": "ast",
@@ -1210,6 +1258,7 @@
     {
       "label": "Scaffold Game Backend (Nakama)",
       "file_type": "document",
+      "node_kind": "heading",
       "source_file": "skills/scaffold-game/SKILL.md",
       "source_location": "L1",
       "_origin": "ast",
@@ -1221,6 +1270,7 @@
     {
       "label": "Verified MCP tools",
       "file_type": "document",
+      "node_kind": "heading",
       "source_file": "skills/scaffold-game/SKILL.md",
       "source_location": "L22",
       "_origin": "ast",
@@ -1232,6 +1282,7 @@
     {
       "label": "When to use",
       "file_type": "document",
+      "node_kind": "heading",
       "source_file": "skills/scaffold-game/SKILL.md",
       "source_location": "L5",
       "_origin": "ast",
@@ -1243,6 +1294,7 @@
     {
       "label": "Workflow",
       "file_type": "document",
+      "node_kind": "heading",
       "source_file": "skills/scaffold-game/SKILL.md",
       "source_location": "L30",
       "_origin": "ast",
@@ -1331,6 +1383,7 @@
     {
       "label": "intelliverse-router/SKILL.md",
       "file_type": "document",
+      "node_kind": "page",
       "source_file": "skills/intelliverse-router/SKILL.md",
       "source_location": "L1",
       "_origin": "ast",
@@ -1342,6 +1395,7 @@
     {
       "label": "60-second loop",
       "file_type": "document",
+      "node_kind": "heading",
       "source_file": "skills/intelliverse-router/SKILL.md",
       "source_location": "L51",
       "_origin": "ast",
@@ -1353,6 +1407,7 @@
     {
       "label": "Intelliverse Router MCP",
       "file_type": "document",
+      "node_kind": "heading",
       "source_file": "skills/intelliverse-router/SKILL.md",
       "source_location": "L1",
       "_origin": "ast",
@@ -1364,6 +1419,7 @@
     {
       "label": "Links",
       "file_type": "document",
+      "node_kind": "heading",
       "source_file": "skills/intelliverse-router/SKILL.md",
       "source_location": "L59",
       "_origin": "ast",
@@ -1375,6 +1431,7 @@
     {
       "label": "One-block MCP config",
       "file_type": "document",
+      "node_kind": "heading",
       "source_file": "skills/intelliverse-router/SKILL.md",
       "source_location": "L11",
       "_origin": "ast",
@@ -1386,6 +1443,7 @@
     {
       "label": "Verified tools (mcp/dist/index.js)",
       "file_type": "document",
+      "node_kind": "heading",
       "source_file": "skills/intelliverse-router/SKILL.md",
       "source_location": "L31",
       "_origin": "ast",
@@ -1397,6 +1455,7 @@
     {
       "label": "When to use",
       "file_type": "document",
+      "node_kind": "heading",
       "source_file": "skills/intelliverse-router/SKILL.md",
       "source_location": "L5",
       "_origin": "ast",
@@ -2685,5 +2744,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "b8915b321085443ef0a613455481b004aa8572cd"
+  "built_at_commit": "8b25f85aeb24ee9517c46e3bea2a95d014656586"
 }
