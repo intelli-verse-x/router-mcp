@@ -1,67 +1,67 @@
 {
   "package.json": {
-    "mtime": 1787052291.9717317,
-    "seen": 1787052311.1941187,
+    "mtime": 1787052662.3122003,
+    "seen": 1787052679.9204326,
     "ast_hash": "bb89fe2e9216490a50175add81a475bb",
     "semantic_hash": ""
   },
   "server.json": {
-    "mtime": 1787052291.9717317,
-    "seen": 1787052311.194125,
+    "mtime": 1787052662.3122003,
+    "seen": 1787052679.9204397,
     "ast_hash": "512695de59b3b710928e75b95b3f3b8e",
     "semantic_hash": ""
   },
   "src/index.ts": {
-    "mtime": 1787052291.9817317,
-    "seen": 1787052311.1941278,
+    "mtime": 1787052662.3122003,
+    "seen": 1787052679.9204435,
     "ast_hash": "dfb53ab4acc3625c81958ab472084070",
     "semantic_hash": ""
   },
   "tsconfig.json": {
-    "mtime": 1787052291.9817317,
-    "seen": 1787052311.1941297,
+    "mtime": 1787052662.3122003,
+    "seen": 1787052679.9204469,
     "ast_hash": "f1d71f40b2d545c5d3be4150a1bd8e38",
     "semantic_hash": ""
   },
   "AGENTS.md": {
-    "mtime": 1787052291.9617317,
-    "seen": 1787052311.1941311,
+    "mtime": 1787052662.3122003,
+    "seen": 1787052679.9204483,
     "ast_hash": "879288e9f32aad84dc533225633792b6",
     "semantic_hash": ""
   },
   "README.md": {
-    "mtime": 1787052291.9617317,
-    "seen": 1787052311.1941333,
+    "mtime": 1787052662.3122003,
+    "seen": 1787052679.9204502,
     "ast_hash": "a5b538bf6e36ea72ca352e78829cd6dc",
     "semantic_hash": ""
   },
   "skills/conversational-avatar/SKILL.md": {
-    "mtime": 1787052291.9717317,
-    "seen": 1787052311.1941347,
+    "mtime": 1787052662.3122003,
+    "seen": 1787052679.9204519,
     "ast_hash": "a5e48e6ca05c15c766ba2bfa29fd8402",
     "semantic_hash": ""
   },
   "skills/deploy-desktop/SKILL.md": {
-    "mtime": 1787052291.9717317,
-    "seen": 1787052311.1941369,
+    "mtime": 1787052662.3122003,
+    "seen": 1787052679.9204533,
     "ast_hash": "c0389a85cbcc54b9322c213bb141009b",
     "semantic_hash": ""
   },
   "skills/intelliverse-router/SKILL.md": {
-    "mtime": 1787052291.9717317,
-    "seen": 1787052311.1941383,
+    "mtime": 1787052662.3122003,
+    "seen": 1787052679.9204552,
     "ast_hash": "98e94d6d42411665244f7e01294dd670",
     "semantic_hash": ""
   },
   "skills/nl-app-builder/SKILL.md": {
-    "mtime": 1787052291.9717317,
-    "seen": 1787052311.19414,
+    "mtime": 1787052662.3122003,
+    "seen": 1787052679.920457,
     "ast_hash": "05395ad5be72e6d04677f8b200542283",
     "semantic_hash": ""
   },
   "skills/scaffold-game/SKILL.md": {
-    "mtime": 1787052291.9717317,
-    "seen": 1787052311.1941414,
+    "mtime": 1787052662.3122003,
+    "seen": 1787052679.9204583,
     "ast_hash": "95ce336574f9c476bb66353baf07a751",
     "semantic_hash": ""
   }
